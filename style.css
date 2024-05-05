@@ -8,10 +8,12 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 600px;
+    min-width: 700px;
     background: #1f1e1e;
 }
 .cal-body{
-    width: 28%;
+    width: 370px;
+    min-width: 370px;
     padding-top: 20px;
     height: 480px;
     border: 2px;
@@ -20,10 +22,10 @@ body{
     background: #252525;
 }
 .cal-scr{
-    width: 95%;
+    width: 340px;
     height: 90px;
     background-color: #9db664;
-    margin-left: 8px;
+    margin-left: 15px;
     border: 1px solid #000000;
     border-radius: 10px;
 }
@@ -33,24 +35,30 @@ body{
     padding-top: 30px;
 }
 .cal-btns{
+    margin-left: 14px;
     padding-top: 15px;
     display: table;
 }
 button{
     display: table-cell;
-    width: 80px;
+    width: 77px;
     height: 60px;
     color: #ffffff;
     background-color: #424242;
     font-size: 1.3rem;
-    margin: 5px;
+    margin: 4px;
     border: 1px solid #0e0e0e;
-
+    border-radius: 10px;
 }
-.clr-btn{
-    width: 170px;
+#clr-btn{
+    width: 162px;
     background-color: #d83434;
 }
-.eql-btn{
+#eql-btn{
     background-color: #44a0c5;
+}
+#pls-btn{
+    height: 128px;
+    float: right;
+    margin-right: 20px;
 }
