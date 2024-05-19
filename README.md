@@ -1,1 +1,1 @@
-# class-task-calculator
+# Repository for SMIT class task calculator
